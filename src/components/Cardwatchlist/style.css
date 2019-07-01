@@ -1,0 +1,31 @@
+.list {
+  background: #C4C4C4;
+  display: flex;
+  height: 750px;
+  padding: 50px;
+  position: relative;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.icon {
+  font-size: 30px;
+  position: absolute;
+  right: 50px;
+  font-size: 30px;
+}
+
+.fa-plus-circle {
+  bottom: 60px;
+  cursor: pointer;
+}
+
+.description {
+  width: 60%;
+  font-size: 25px;
+}
+
+.img {
+  width: 34%;
+  height: 100%;
+}

@@ -1,0 +1,47 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: black;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+  height: 70px;
+}
+
+.navbar-brand {
+  margin-left: 40px;
+  font-size: 40px;
+  color: #B41010;
+  font-weight: 700;
+  text-decoration: blink;
+}
+
+.navbar-collapse {
+  width: 35%;
+}
+
+.navbar-ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+.nav-link {
+  text-decoration: blink;
+  font-size: 30px;
+  color: #B41010;
+  font-weight: 700;
+}
+
+@media only screen and (max-width: 900px) {
+  .nav-link {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .navbar-collapse {
+    width: 51%;
+  }
+}
